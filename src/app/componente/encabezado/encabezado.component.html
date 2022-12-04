@@ -1,0 +1,35 @@
+<nav class="container navbar degradado">
+    <a class="navbar-brand text-light" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank"> Argentina Programa- #YoProgramo</a>
+    <div>
+    <a class="navbar-brand" [href]="miPortfolio.instagram.url" target="_blank">
+   <img [src]="miPortfolio.instagram.imagen" alt="" width="20" height="20"></a>
+  
+   <a class="navbar-brand" [href]="miPortfolio.facebook.url" target="_blank">
+   <img [src]="miPortfolio.facebook.imagen" alt="" width="20" height="20">
+   </a>
+  
+   <button type="button" class="btn btn-outline-light">Login</button>
+   </div>
+  </nav>
+  
+  <div class="container">
+  <div style="border-collapse: collapse;">
+  <div class="row">
+  <div class="col-12 text-center">
+  <img [src]="miPortfolio.imagen_encabezado" class="img-fluid" width="1200" height="400" alt="..." >
+  </div>
+  </div>
+  
+  
+  <div class="letra">
+  <img [src]="miPortfolio.imagen_perfil" class="img-fluid" alt="" height="200px" width="200px" top="20px" class="rounded-circle">
+  <h4>{{miPortfolio.nombre_apellido}}</h4>
+  <h5>{{miPortfolio.posicion}}</h5>
+  <p>{{miPortfolio.ubicacion}}</p>
+  <button type="button" class="btn degradado text-light">Tengo interes en</button>
+  <button type="button" class="btn btn-light">Añadir sección</button>
+  <button type="button" class="btn btn-light">Más</button>
+  <button type="button" class="btn btn-light"> <a href="">Información de contacto</a> </button>
+  </div>
+  </div>
+  </div>

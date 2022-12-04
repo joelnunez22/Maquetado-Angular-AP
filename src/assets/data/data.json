@@ -1,0 +1,47 @@
+{
+    "nombre_apellido": "Joel Núñez",
+    "instagram": {
+        "imagen": "./assets/imagenes/instagram.png",
+        "url": "https://www.instagram.com/joel.nunez_/"
+    },
+    "facebook":{
+        "imagen": "./assets/imagenes/Facebook logo.png",
+        "url": "https://www.facebook.com/joel.nunez.7982"
+    },
+    "imagen_encabezado": "./assets/imagenes/compu 3.jpg",
+    "imagen_perfil": "./assets/imagenes/Joel.jpeg",
+    "posicion": "Pg. Full-Stack Developer Junior",
+    "ubicacion": "Buenos Aires, Argentina",
+    "acercademi": "Pg. Full Stack Developer Junior, estudiante de la Lic. en Psicología y diplomado en teología.",
+    "experiencia": "#",
+
+    "educacion": [
+        {"imagen": "./assets/imagenes/belen.jpg",
+         "institucion": "Escuela Secundaria Belen",
+         "titulo": "Titulo secundario con orientación economica",
+         "duracion": "2012-2017"},
+
+         {"imagen": "./assets/imagenes/IBRP-2.png",
+         "institución": "Instituto Río de La Plata",
+         "titulo": "Diplomatura en teología",
+         "duracion": "2018-2021"},
+
+         {"imagen": "./assets/imagenes/uba.png",
+         "institucion": "Universidad de Buenos Aires",
+         "titulo": "Licenciatura en Psicología",
+         "duracion": "2022-actualidad"}
+    ],
+
+    "skills":{
+        "ingles": "Ingles",
+        "paqueteoffice": "Paquete office",
+        "adaptabilidad_flexibilidad": "Adaptabilidad y flexibilidad"
+    },
+
+    "proyectos": 
+        {"titulo": "Portfolio Personal",
+        "contenido": "Dasarrolle este portfolio personal desde cero, por medio de diferentes herramientas de programación (html, css, js, scss, angular y bootstrap)"}
+    
+
+    
+}

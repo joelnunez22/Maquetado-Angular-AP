@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+.movericono2{
+    position: relative;
+    left: 800px;
+    top: 75px;
+  }
+  
+  .alineartexto {
+    position: relative;
+    right: 25px;
+  }
+  
+  .movericono{
+    position: relative;
+    left: 900px;
+  }
+
+  .movericono3 {
+    position: relative;
+    left: 927px;
+  }
+  
+  .cambiarborde {
+    border: 1px solid black;
+    
+  }
+  
+  .degradado{ 
+    background-image: linear-gradient(to left, #A950A1, #2D3A54, #A950A1);
+  }
+  
+  .MarginSkills {
+    margin-top: 30px;
+  }
+  .margincard {
+    margin-bottom: 60px;
+  }
+  .alinearimagen2 h4{
+    margin-top: 30px;
+  }
+  
+  .alinearimagen2 img{
+    float: left;
+  margin-top: 30px;
+  }
+  
+  
+  .alinearimagen h4{
+    margin-top: 30px;
+  }
+  .alinearimagen img{
+  float: left;
+  margin-top: 30px;
+  }
+  
+  .MarginProgress {
+    margin-top: 20px;
+  }
+  .textoalineacion h4{
+  margin-top: 30px;
+  }
+  
+  .textoalineacion img{
+    float: left;
+    margin-top: 30px;
+  }
+  .ElevarCard{
+    position: relative;
+    bottom: 30px;
+  }
+  .letra {
+    position: relative;
+   bottom: 100px;}
+  
+  $theme-colors: (
+    "primary": #67aeca,
+     "dark": black,
+     "light": white,);
+  
